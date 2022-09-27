@@ -22,7 +22,7 @@ module "vpc" {
 
 
 resource "aws_security_group" "allow_db_connect" {
-  name        = "${var.env}_allow_ssh_port"
+  name        = "allow_db_connect"
   description = "Allow service inbound traffic"
   vpc_id      = module.vpc.vpc_id
   
