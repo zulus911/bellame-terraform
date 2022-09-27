@@ -50,7 +50,7 @@ module "db" {
 
   engine            = "mysql"
   engine_version    = "5.7.25"
-  instance_class    = "db.t3a.large"
+  instance_class    = "db.m5d.large"
   allocated_storage = 5
 
   db_name  = "dev-db"
