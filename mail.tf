@@ -178,9 +178,7 @@ module "asg" {
   }
 instance_market_options = {
     market_type = "spot"
-    spot_options = {
-      block_duration_minutes = 60
-    }
+
   }
 
   credit_specification = {
