@@ -53,7 +53,7 @@ module "db" {
   instance_class    = "db.m4.large"
   allocated_storage = 5
 
-  db_name  = "dev-db"
+  db_name  = "devdb"
   username = "user"
   port     = "3306"
 
